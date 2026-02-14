@@ -1,6 +1,11 @@
 require("dotenv").config();
 const Student = require('./Models/Student');
 const ClassRoom = require('./Models/ClassRoom');
+const Task = require('./Models/Task');
+const Contact = require('./Models/Contact');
+const Books = require('./Models/Books');
+const Author = require('./Models/Author');
+const Product = require('./Models/Product');
 
 const express = require('express');
 const app = express();
